@@ -1,0 +1,38 @@
+.Btn_gold {
+  margin: 5px;
+  width: 200px;
+  height: 40px;
+  border: none;
+  border-top-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  background: linear-gradient(
+    to right,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  font-size: 1.15em;
+  color: rgb(121, 103, 3);
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  z-index: 2;
+  transition-duration: 3s;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.144);
+  background-size: 200% 200%;
+  text-transform: capitalize;
+}
+@media (max-width: 760px) {
+  .Btn_gold {
+    width: 160px;
+    font-size: 10px;
+    margin: 3px;
+    padding: 0 5px;
+  }
+}

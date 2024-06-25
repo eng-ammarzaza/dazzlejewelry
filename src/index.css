@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poetsen+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poetsen+One&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=DM+Serif+Display:ital@0;1&family=Great+Vibes&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Great+Vibes&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Poetsen+One&family=Reddit+Sans:ital,wght@0,200..900;1,200..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .checkinput {
+    @apply flex md:h-12 h-10 w-full rounded-md border border-[#bdb6b6]  px-3 py-2 text-sm file:border-0 ring-brand-500 file:text-sm file:font-medium focus-visible:outline-none focus-visible:ring-2  focus-visible:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50;
+  }
+}
+.bm {
+  padding-left: 6%;
+  padding-right: 6%;
+}
+body {
+  background-color: #fbfbf2;
+  overflow-x: hidden;
+}

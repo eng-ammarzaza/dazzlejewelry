@@ -1,0 +1,25 @@
+.primary {
+  animation: primary 10s linear infinite;
+}
+
+.secondary {
+  animation: secondary 10s linear infinite;
+}
+
+@keyframes primary {
+  from {
+    left: 0%;
+  }
+  to {
+    left: -100%;
+  }
+}
+
+@keyframes secondary {
+  from {
+    left: 100%;
+  }
+  to {
+    left: 0%;
+  }
+}
